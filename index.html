@@ -59,7 +59,7 @@
 
   <!-- ============ HEBREW ============ -->
   <section class="doc" id="he" dir="rtl">
-    <p class="updated">עדכון אחרון: 4 ביוני 2026</p>
+    <p class="updated">עדכון אחרון: 30 ביולי 2026</p>
 
     <h2>1. כללי</h2>
     <p>ברוכים הבאים ל-Combat Coach (להלן: "האפליקציה", "אנחנו", "השירות"). אנחנו מכבדים את הפרטיות שלכם ומחויבים להגן עליה. מדיניות זו מסבירה אילו נתונים אנחנו אוספים, למה, איפה הם מאוחסנים, כמה זמן, עם מי הם משותפים, ומה הזכויות שלכם.</p>
@@ -107,8 +107,9 @@
       <li><strong>לא</strong> נתוני בריאות מ-Apple Health / Google Fit.</li>
       <li><strong>לא</strong> מזהה פרסומי (IDFA / AAID).</li>
       <li><strong>לא</strong> מעקב חוצה-אפליקציות או חוצה-אתרים.</li>
-      <li><strong>אין באפליקציה כלי אנליטיקה של צד שלישי</strong> (לא Firebase, לא Sentry, לא Google Analytics).</li>
+      <li><strong>לא</strong> כלי אנליטיקה שיווקי / פרסומי (לא Firebase Analytics, לא Google Analytics, לא מזהה פרסומי).</li>
     </ul>
+    <p style="opacity:.85"><strong>ניטור-קריסות (Sentry):</strong> האפליקציה כן משתמשת ב-Sentry לניטור תקלות וקריסות בלבד (ראו סעיף 4). זה <strong>אינו</strong> כלי אנליטיקה שיווקי ואינו משמש לפרסום.</p>
 
     <h2>3. איך אנחנו משתמשים בנתונים</h2>
     <ul>
@@ -123,6 +124,7 @@
     <h2>4. ספקי שירות</h2>
     <p>אנחנו משתמשים בשירותי <strong>Supabase Inc.</strong> (<a href="https://supabase.com">supabase.com</a>) כתשתית ה-backend שלנו — מסד נתונים, אימות (Auth), ואחסון קבצים (סרטוני תרגילים). כל הנתונים המתוארים במדיניות זו (למעט הנתונים שבסעיף 2.3 שנשמרים רק על המכשיר) מאוחסנים בשרתי Supabase.</p>
     <p>Supabase פועלת בשמנו בלבד, כספק עיבוד נתונים (Data Processor), ולפי הנחיותינו. היא <strong>לא משתפת, מוכרת או משתמשת</strong> בנתונים שלכם למטרותיה. מידע נוסף: <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</p>
+    <p>אנחנו משתמשים גם ב-<strong>Sentry</strong> (Functional Software, Inc.) לניטור תקלות וקריסות — כדי לזהות באגים ולשפר יציבות. כאשר מתרחשת שגיאה נשלחים ל-Sentry: פרטי-השגיאה (stack trace), דגם-המכשיר וגרסת-מערכת-ההפעלה, מזהה-המשתמש (UUID) ואירועי-שימוש טכניים. <strong>ערכים אישיים ובריאותיים (שם, מייל, טלפון, גיל, משקל, כאב) מסוננים לפני השליחה ואינם מגיעים ל-Sentry.</strong> שרתי Sentry ממוקמים באיחוד האירופי (EU). מידע נוסף: <a href="https://sentry.io/privacy/">sentry.io/privacy</a>.</p>
     <p><strong>הפצה דרך החנויות</strong> — Apple App Store ו-Google Play מקבלות נתוני התקנה ושימוש בסיסיים לפי המדיניות שלהן. אין לנו שליטה על נתונים אלה.</p>
 
     <h2>5. איפה הנתונים מאוחסנים ומועברים</h2>
@@ -165,19 +167,20 @@
       <tr><th>זכות</th><th>איך לממש</th></tr>
       <tr><td><strong>גישה</strong> לנתונים</td><td>צפייה בפרופיל מתוך האפליקציה, או פנייה אלינו</td></tr>
       <tr><td><strong>תיקון</strong> נתונים</td><td>עדכון בפרופיל, או פנייה אלינו</td></tr>
-      <tr><td><strong>מחיקה</strong> של החשבון והנתונים</td><td>פנייה ל-shemesh15115@gmail.com</td></tr>
+      <tr><td><strong>מחיקה</strong> של החשבון והנתונים</td><td>מתוך האפליקציה: הגדרות → "מחיקת חשבון", או פנייה ל-shemesh15115@gmail.com</td></tr>
       <tr><td><strong>ניידות</strong> — קובץ של הנתונים שלכם</td><td>פנייה ל-shemesh15115@gmail.com</td></tr>
       <tr><td><strong>הגבלת עיבוד / התנגדות</strong></td><td>פנייה אלינו עם הסבר</td></tr>
       <tr><td><strong>ביטול הסכמה</strong></td><td>בכל עת</td></tr>
     </table>
-    <p><strong>לגבי מחיקה:</strong> קיים מנגנון מחיקה מלא בצד השרת — בקשתכם תטופל וכל הנתונים שלכם (פרטים, שאלון, תוכניות, הודעות) יימחקו, עם רישום הבקשה ביומן מחיקות לצורך עמידה בחוק. זמן מענה צפוי: עד 30 ימים.</p>
+    <p><strong>לגבי מחיקה:</strong> ניתן למחוק את החשבון ואת כל הנתונים <strong>ישירות מתוך האפליקציה</strong> — מסך הגדרות → "מחיקת חשבון". הפעולה מוחקת לצמיתות את הפרופיל, התוכנית, היסטוריית האימונים ושאר הנתונים, ומבטלת את ההתחברות, עם רישום הבקשה ביומן מחיקות לצורך עמידה בחוק. ניתן גם לפנות אלינו במייל. זמן מענה: מיידי מתוך האפליקציה; עד 30 ימים בפנייה במייל.</p>
     <p><strong>תושבי קליפורניה (CCPA):</strong> אתם זכאים לדעת אילו נתונים נאספו, לבקש מחיקתם, ולדעת אם נמכרו — במקרה שלנו <strong>איננו מוכרים נתונים</strong>.</p>
 
     <h2>9. ילדים וקטינים</h2>
-    <p>האפליקציה כוללת תוכן אימון לבני נוער, ולכן עשויים להשתמש בה גם <strong>קטינים</strong>, בדרך כלל במסגרת ליווי של מאמן.</p>
+    <p>האפליקציה כוללת תוכן אימון לבני נוער, ולכן עשויים להשתמש בה גם <strong>קטינים</strong> (16-17), בדרך כלל במסגרת ליווי של מאמן.</p>
     <ul>
-      <li>איננו אוספים ביודעין נתונים מילדים מתחת לגיל המותר ללא הסכמת הורה.</li>
-      <li>מאמן שמצרף מתאמן קטין אחראי לקבל את הסכמת ההורה לעיבוד הנתונים ולשיתופם עמו.</li>
+      <li><strong>גיל המינימום להרשמה עצמאית הוא 16</strong> — ההרשמה העצמאית חסומה מתחת לגיל 16 (שער-גיל באפליקציה).</li>
+      <li>קטינים בגיל <strong>16-17</strong> נרשמים בכפוף לאישור הורה/אפוטרופוס שניתן בתוך האפליקציה.</li>
+      <li>מתאמנים מתחת לגיל 16 יכולים להצטרף רק דרך מאמן מוסמך; המאמן אחראי לקבל את הסכמת ההורה לעיבוד הנתונים ולשיתופם עמו.</li>
       <li>הורה שגילה כי ילדו נרשם ללא הסכמתו — יפנה אלינו ל-shemesh15115@gmail.com ונמחק את החשבון.</li>
     </ul>
 
@@ -192,7 +195,7 @@
     <p>אף מערכת אינה חסינה ב-100%. במקרה של דליפה מהותית — נודיע למשתמשים המושפעים תוך 72 שעות, כנדרש ב-GDPR.</p>
 
     <h2>11. עוגיות ו-Trackers</h2>
-    <p>האפליקציה <strong>אינה</strong> משתמשת בעוגיות, ב-trackers של צד שלישי, או באנליטיקה מבוססת IDFA/AAID. שירות ההקראה הקולית (Text-to-Speech) פועל <strong>על המכשיר עצמו</strong> ואינו שולח את הטקסט לשרת חיצוני שלנו.</p>
+    <p>האפליקציה <strong>אינה</strong> משתמשת בעוגיות, ב-trackers פרסומיים, או באנליטיקה מבוססת IDFA/AAID. הכלי היחיד מצד-שלישי הוא <strong>Sentry</strong> לניטור-קריסות (ראו סעיף 4) — אינו trackr פרסומי. שירות ההקראה הקולית (Text-to-Speech) פועל <strong>על המכשיר עצמו</strong> ואינו שולח את הטקסט לשרת חיצוני שלנו.</p>
 
     <h2>12. שינויים במדיניות</h2>
     <p>נעדכן מדיניות זו מעת לעת. שינוי מהותי יודע מראש (באפליקציה ו/או במייל) ויעודכן בתאריך "עדכון אחרון" שלמעלה. המשך השימוש לאחר עדכון מהווה הסכמה למדיניות המעודכנת.</p>
@@ -213,7 +216,7 @@
   <!-- ============ ENGLISH ============ -->
   <section class="doc en" id="en" dir="ltr" lang="en">
     <h2>Privacy Policy — Combat Coach</h2>
-    <p class="updated">Last updated: June 4, 2026</p>
+    <p class="updated">Last updated: July 30, 2026</p>
 
     <h3>1. General</h3>
     <p>Welcome to Combat Coach ("the App", "we", "the service"). We respect your privacy and are committed to protecting it. This policy explains what data we collect, why, where it is stored, for how long, with whom it is shared, and your rights.</p>
@@ -230,13 +233,13 @@
     <p><strong>2.2 Data generated from use:</strong> a unique user ID (UUID); role (coach or athlete); your personalized training program; coach–athlete notes.</p>
     <p><strong>2.3 Data stored only on your device (never sent to us):</strong> your personal workout log (which workouts you completed, effort ratings); your login session token; your biometric login preference (Face ID / Touch ID). If you delete the App, this local data is removed.</p>
     <p><strong>2.4 Biometric data (Face ID / Touch ID):</strong> handled entirely by your device's operating system. We do not see, collect, or store your face or fingerprint — the App receives only a "verified / not verified" result.</p>
-    <p><strong>2.5 Data we do NOT collect:</strong> no passwords; no location/GPS; no phone contacts; no Apple Health / Google Fit data; no advertising identifier (IDFA/AAID); no cross-app or cross-site tracking; no third-party analytics SDK (no Firebase, Sentry, Google Analytics).</p>
+    <p><strong>2.5 Data we do NOT collect:</strong> no passwords; no location/GPS; no phone contacts; no Apple Health / Google Fit data; no advertising identifier (IDFA/AAID); no cross-app or cross-site tracking; no marketing/advertising analytics. (The App does use Sentry for crash monitoring only — see Section 4 — which is not a marketing analytics tool.)</p>
 
     <h3>3. How We Use Data</h3>
     <p>To operate the service (login, show your program, track workouts, adapt exercises by pain/limits); for coach↔athlete interaction; for essential communication (OTP codes, service messages, policy updates); for maintenance and improvement; and for legal compliance. We do <strong>not</strong> use your data for profile-based advertising, and we do <strong>not</strong> sell data to third parties.</p>
 
     <h3>4. Service Providers</h3>
-    <p>We use <strong>Supabase Inc.</strong> (<a href="https://supabase.com">supabase.com</a>) as our backend — database, authentication, and file storage (exercise videos). All server-side data (except the on-device data in 2.3) is stored on Supabase. Supabase acts solely on our behalf as a data processor and does not share, sell, or use your data for its own purposes. The Apple App Store and Google Play receive basic install/usage data under their own policies.</p>
+    <p>We use <strong>Supabase Inc.</strong> (<a href="https://supabase.com">supabase.com</a>) as our backend — database, authentication, and file storage (exercise videos). All server-side data (except the on-device data in 2.3) is stored on Supabase. Supabase acts solely on our behalf as a data processor and does not share, sell, or use your data for its own purposes. We also use <strong>Sentry</strong> (Functional Software, Inc.) for crash &amp; error monitoring; on an error, Sentry receives the stack trace, device model/OS, the user's UUID, and technical usage events — personal/health values (name, email, phone, age, weight, pain) are redacted before sending. Sentry's servers are in the EU. See <a href="https://sentry.io/privacy/">sentry.io/privacy</a>. The Apple App Store and Google Play receive basic install/usage data under their own policies.</p>
 
     <h3>5. Where Data Is Stored and Transferred</h3>
     <p>Server-side data is stored on Supabase servers. For active EU users, an international transfer occurs relying on <strong>Standard Contractual Clauses (SCC)</strong> under GDPR. Protections: TLS 1.2+ in transit; encryption at rest on the Supabase side; PostgreSQL <strong>Row-Level Security</strong> so each user sees only their own / their role's data.</p>
@@ -248,16 +251,16 @@
     <p>We keep account data while the account is active. The local workout log remains until you delete/clear the App. After a deletion request, server data is deleted promptly (target: within 30 days); a minimal deletion-request log is kept as legal proof, with no PII beyond phone/name.</p>
 
     <h3>8. Your Rights</h3>
-    <p>Under GDPR (if you are in the EU) and the Israeli Privacy Protection Law: access, correction, deletion of your account and data, portability, restriction/objection, and withdrawal of consent. To exercise deletion or portability, email <strong>shemesh15115@gmail.com</strong>. We have a full server-side deletion mechanism; expected response within 30 days. California residents (CCPA): you may know what data was collected, request deletion, and know whether it was sold — we do <strong>not</strong> sell data.</p>
+    <p>Under GDPR (if you are in the EU) and the Israeli Privacy Protection Law: access, correction, deletion of your account and data, portability, restriction/objection, and withdrawal of consent. You can delete your account and all data directly in the App (Settings → "Delete Account"), or email <strong>shemesh15115@gmail.com</strong> for deletion or portability. Expected response: immediate for in-app deletion; within 30 days for email requests. California residents (CCPA): you may know what data was collected, request deletion, and know whether it was sold — we do <strong>not</strong> sell data.</p>
 
     <h3>9. Children and Minors</h3>
-    <p>The App includes youth-training content, so minors may use it, typically under a coach's supervision. We do not knowingly collect data from children below the permitted age without parental consent. A coach who adds a minor athlete is responsible for obtaining parental consent. A parent who discovers their child registered without consent should contact shemesh15115@gmail.com and we will delete the account.</p>
+    <p>The App includes youth-training content, so minors (16-17) may use it, typically under a coach's supervision. <strong>The minimum age for independent registration is 16</strong> — self-signup is blocked below 16 (an in-app age gate). Minors aged 16-17 register subject to parental/guardian consent given inside the App. Athletes under 16 may only join through a certified coach, who is responsible for obtaining parental consent. A parent who discovers their child registered without consent should contact shemesh15115@gmail.com and we will delete the account.</p>
 
     <h3>10. Security</h3>
     <p>TLS 1.2+ in transit; encryption at rest on Supabase; Row-Level Security; OTP-only (no passwords to store or leak); administrative access limited to the authorized operator. No system is 100% secure; in the event of a material breach we will notify affected users within 72 hours, as required by GDPR.</p>
 
     <h3>11. Cookies and Trackers</h3>
-    <p>The App does not use cookies, third-party trackers, or IDFA/AAID-based analytics. The text-to-speech feature runs on the device itself and does not send text to a server of ours.</p>
+    <p>The App does not use cookies, advertising trackers, or IDFA/AAID-based analytics. The only third-party tool is <strong>Sentry</strong> for crash monitoring (see Section 4) — not an advertising tracker. The text-to-speech feature runs on the device itself and does not send text to a server of ours.</p>
 
     <h3>12. Changes to This Policy</h3>
     <p>We may update this policy from time to time. A material change will be announced in advance (in-app and/or by email) and reflected in the "Last updated" date above.</p>
